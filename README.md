@@ -17,7 +17,6 @@ To-do
 ---
 
 	* Mapbox: display & update data
-	* Twitter collection embed
 	* image sizes
 	* svgs sizes
 	* missing texts
