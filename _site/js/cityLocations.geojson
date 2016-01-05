@@ -1,8 +1,8 @@
 {
-  "type": "MultiPoint",
+  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "berlin",
         "year": "2014",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "hamburg",
         "year": "2014",
@@ -38,7 +38,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "muenster",
         "year": "2014",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "paderborn",
         "year": "2014",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "leipzig",
         "year": "2014",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "dresden",
         "year": "2014",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "chemnitz",
         "year": "2014",
@@ -128,7 +128,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "koeln",
         "year": "2014",
@@ -146,7 +146,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "giessen",
         "year": "2014",
@@ -164,7 +164,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "heilbronn",
         "year": "2014",
@@ -182,7 +182,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "stuttgart",
         "year": "2014",
@@ -200,7 +200,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "ulm",
         "year": "2014",
@@ -218,7 +218,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "muenchen",
         "year": "2014",
@@ -236,7 +236,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "magdeburg",
         "year": "2015",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "jena",
         "year": "2015",
@@ -272,7 +272,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "frankfurt",
         "year": "2015",
@@ -290,7 +290,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "wuppertal",
         "year": "2015",
@@ -308,7 +308,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "karlsruhe",
         "year": "2015",
@@ -326,7 +326,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "freiburg",
         "year": "2015",
@@ -344,7 +344,7 @@
       }
     },
     {
-      "type": "Point",
+      "type": "Feature",
       "properties": {
         "city": "ruhr",
         "year": "2015",
