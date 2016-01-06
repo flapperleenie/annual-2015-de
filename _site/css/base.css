@@ -2821,7 +2821,8 @@ iframe.twitter-share-button {
 /* line 252, ../sass/base.scss */
 .intropage p {
   margin: 15px 0px;
-  line-height: 13px;
+  line-height: 20px;
+  font-weight: bold;
 }
 
 /*****************************************************************************/
