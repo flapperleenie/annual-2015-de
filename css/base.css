@@ -661,7 +661,7 @@ a.appspop:hover {
 
 /* line 90, ../sass/_backgrounds.scss */
 .pagebg.imagecities {
-  background: url("../img/wallpaper.jpg") no-repeat;
+  background: url("../img/wallpaper.png") no-repeat;
   background-size: cover;
   background-position: right;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/wallpaper.jpg', sizingMethod='scale')";
