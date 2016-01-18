@@ -803,6 +803,7 @@ a.appspop:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
+  max-width:560px;
 }
 
 /* line 21, ../sass/_carousel.scss */
