@@ -586,7 +586,7 @@ $(function(){
   // Create a map in the div #map
   var map = L.mapbox.map('map', 'flapperleenie.ok1jf4pj', {
     zoomControl: false
-  }).setView([51, 9.8], 7);
+  }).setView([51, 9.8], 6);
   // Disable drag and zoom handlers.
   map.dragging.disable();
   map.touchZoom.disable();
@@ -594,10 +594,38 @@ $(function(){
   map.scrollWheelZoom.disable();
   map.keyboard.disable();
 
-  var featureLayer = L.mapbox.featureLayer(cities)
+  var cities2015 = filterCitiesByYear("2015");
+  var cities2014 = filterCitiesByYear("2014");
+
+  function filterCitiesByYear(year) {
+    var newCities = JSON.parse(JSON.stringify(cities));
+    newCities[0].features = newCities[0].features.filter(function(item) {
+          return item.properties.year === year
+        });
+    return newCities;
+  }
+  console.log('test');
+  console.log(cities2015);
+
+  var featureLayer2014 = L.mapbox.featureLayer(cities2014)
     // hide all markers
-    .setFilter(function(){ return false; })
+    .setFilter(function(){ return true; })
     .addTo(map);
+  var featureLayer2015 = L.mapbox.featureLayer(cities2015)
+      // hide all markers
+      .setFilter(function(){ return true; });
+
+  $('#2014 .btn').click(function() {
+    map.removeLayer(featureLayer2015);
+    //map.addLayer(featureLayer2014);
+  })
+
+  $('#2015 .btn').click(function() {
+    //map.removeLayer(featureLayer2014);
+    map.addLayer(featureLayer2015);
+  })
+
+
 
   var years = ["2014", "2015", "2016"]
 
