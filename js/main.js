@@ -9,7 +9,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -27,7 +27,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -45,7 +45,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -63,7 +63,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -81,7 +81,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -99,7 +99,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -117,7 +117,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -135,7 +135,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -153,7 +153,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -171,7 +171,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -189,7 +189,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -207,7 +207,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -225,7 +225,7 @@ var cities = [{
         "year": "2014",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -243,7 +243,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -261,7 +261,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -279,7 +279,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -297,7 +297,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -315,7 +315,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -333,7 +333,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -351,7 +351,7 @@ var cities = [{
         "year": "2015",
         "type": "fellowship",
         "story": "summit",
-        "marker-size": "large",
+        
         "marker-color": "#e87d2b"
       },
       "geometry": {
@@ -359,6 +359,84 @@ var cities = [{
         "coordinates": [
           7.217674255371093,
           51.4811690848672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "kassel",
+        "year": "2016",
+        
+        "marker-color": "#e87d2b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.477767944335938,
+          51.310657230633744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "erlangen",
+        "year": "2016",
+        "marker-color": "#e87d2b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.003150939941406,
+          49.59624753996825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "duesseldorf",
+        "year": "2016",
+        "marker-color": "#e87d2b"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.779937744140625,
+          51.222152622151995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "ruhr",
+        "year": "2016",
+        "marker-color": "#e87d2b"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.21698760986328,
+          51.4811690848672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "niederrhein",
+        "year": "2016",
+        "marker-color": "#e87d2b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.010650634765625,
+          51.45892724311225
         ]
       }
     }
@@ -594,6 +672,7 @@ $(function(){
   map.scrollWheelZoom.disable();
   map.keyboard.disable();
 
+  var cities2016 = filterCitiesByYear("2016");
   var cities2015 = filterCitiesByYear("2015");
   var cities2014 = filterCitiesByYear("2014");
 
@@ -614,17 +693,26 @@ $(function(){
   var featureLayer2015 = L.mapbox.featureLayer(cities2015)
       // hide all markers
       .setFilter(function(){ return true; });
+  var featureLayer2016 = L.mapbox.featureLayer(cities2016)
+      // hide all markers
+      .setFilter(function(){ return true; });
 
   $('#2014 .btn').click(function() {
+    map.removeLayer(featureLayer2016);
     map.removeLayer(featureLayer2015);
     //map.addLayer(featureLayer2014);
   })
 
   $('#2015 .btn').click(function() {
-    //map.removeLayer(featureLayer2014);
+    map.removeLayer(featureLayer2016);
     map.addLayer(featureLayer2015);
   })
 
+  $('#2016 .btn').click(function() {
+    //map.removeLayer(featureLayer2014);
+    map.addLayer(featureLayer2016);
+
+  })
 
 
   var years = ["2014", "2015", "2016"]
@@ -642,6 +730,9 @@ $(function(){
         $("#markerCircle", $svg).attr('style', "fill:#6D6E71");
       break;
       case "2015":
+        $("#markerCircle", $svg).attr('style', "fill:#6D6E71");
+      break;
+      case "2016":
         $("#markerCircle", $svg).attr('style', "fill:#6D6E71");
       break;
       default:
